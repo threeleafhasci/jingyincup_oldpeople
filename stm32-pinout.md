@@ -37,8 +37,8 @@
 | 22 | PC13 | `C13` | H1-19 | 空闲 | 驱动能力弱（3mA），不宜驱动负载 |
 | 23 | PC14 | `C14` | H1-18 | 空闲 | LSE 晶振脚 |
 | 24 | PC15 | `C15` | H1-17 | 空闲 | LSE 晶振脚 |
-| 25 | PA0 | *（空）* | H1-16 | **水平舵机 PWM** | **TIM2_CH1**，50Hz；ADC12_IN0 |
-| 26 | PA1 | *（空）* | H1-15 | **垂直舵机 PWM** | **TIM2_CH2**，50Hz；ADC12_IN1 |
+| 25 | PA0 | `servo_x_A0`  | H1-16 | **水平舵机 PWM** | **TIM2_CH1**，50Hz；ADC12_IN0 |
+| 26 | PA1 | `servo_y_A1` | H1-15 | **垂直舵机 PWM** | **TIM2_CH2**，50Hz；ADC12_IN1 |
 | 27 | PA2 | `YU_RX_A2TX` | H1-14 | 语音模块 RX | **USART2_TX** |
 | 28 | PA3 | `YU_TX_A3RX` | H1-13 | 语音模块 TX | **USART2_RX** |
 | 29 | PA4 | `MQ135_A4` | H1-12 | MQ135 模块 AO（模拟） | **ADC12_IN4**；SPI1_NSS |
